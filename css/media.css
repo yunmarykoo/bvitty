@@ -1,0 +1,138 @@
+@media screen and (max-width: 700px){
+  .mtwo {
+    grid-auto-rows: 180px;
+  }
+  .item_1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .item_2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .item_3 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .item_4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .item_5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .item_7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .item_9 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .item_10 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .item_11 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .item_12 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .item_13 {
+    display: none;
+  }
+
+  .hoodie p {
+    font-size: 30px;
+  }
+
+  .hoodie .text {
+    font-size: 18px;
+  }
+  .hoodie div {
+    grid-auto-rows: 280px;
+  }
+  
+  .mfive h3 {
+    font-size: 25px;
+  }
+  .mfive h3 img {
+    width: 25px;
+  }
+  .mfive ul li {
+    font-size: 18px;
+  }
+
+  footer ul li {
+    font-size: 13px;
+    margin: 0 20px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .mone h1 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 40px;
+  }
+  .mone p {
+    margin-top: 40px;
+  }
+  .mone p img {
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 330px){
+  .mone h1 {
+    font-size: 20px;
+  }
+  .mone p {
+    font-size: 15px;
+  }
+  .hoodie p {
+    font-size: 16px;
+  }
+  .hoodie div {
+    grid-auto-rows: 170px;
+  }
+  .hoodie .text {
+    font-size: 13px;
+  }
+  .mfive h3 {
+    font-size: 20px;
+  }
+  .mfive ul li {
+    font-size: 13px;
+  }
+  footer ul li {
+    margin: 0 10px;
+    font-size: 12px ;
+  }
+}
