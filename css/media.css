@@ -129,7 +129,8 @@
     font-size: 20px;
   }
   .mfive ul li {
-    font-size: 13px;
+    font-size: 10px;
+    text-align: left;
   }
   footer ul li {
     margin: 0 10px;
